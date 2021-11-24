@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     //relacionando ruta "/" con la ruta "inicio"
-    path: '/',
+    path: '',
     pathMatch: 'full',
     redirectTo: '/inicio',
   },
